@@ -1,0 +1,74 @@
+/* body{
+    background-color: gainsboro; 
+} */
+
+.container-fluid{
+    background-color: greenyellow;
+    /* width: 100%; */
+    /* margin-left: 0;
+    margin-right: 0; */
+    /* max-width: 100%; */
+    padding: 0;
+}
+
+.navbar-brand{
+    background-color: teal;
+}
+
+#main_pain{
+    background-color: coral;
+    position: relative;
+    left: 5%;
+    margin-top: 5%;
+    /* margin-left: 1%; */
+    margin-bottom: 3%;
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    /* margin-right: 10px; */
+    /* margin: 10px; */
+ }
+ 
+#displayed_img{
+   padding-right: 20px;
+   padding-bottom: 20px;
+}
+
+/* p{
+    padding-left: 20px;
+} */
+
+
+#side_pane{
+    background-color: skyblue;
+    position: relative;
+    left: 8%;
+    text-align: center;
+    margin-top: 5%;
+    /* margin-left: 1cm;  */
+    margin-bottom: 5%;
+    /* margin-right: 0px; */
+    
+    /* padding-top: 70px;
+    padding-left: 50px;
+    padding-right: 50px; */
+
+ 
+    /* margin-right: 1px; */
+} 
+
+.graphs{
+    /* display: grid; */
+    display: inline-block;
+    /* left: ; */
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 1rem;
+}
+
+#footer_section{
+    position: relative;
+    padding-top: 10px;
+    background-color: pink ;
+}
