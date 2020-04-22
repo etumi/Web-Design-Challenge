@@ -10,8 +10,15 @@
 .row{
     background-color: #EDEDED;
     /* padding-bottom: 25px; */
-    /* padding: 0; */
+    /* padding: 0;*/
 }
+
+.row #comparison_graphs{
+    background-color: white;
+}
+/* .main_section{
+    background-color: #EDEDED;
+} */
 
 /* .container-fluid{
     background-color: lightsalmon;
@@ -52,21 +59,88 @@
     padding-right: 30px;
     padding-bottom: 50px;
  }
+
+ #displayed_img{
+    padding-right: 20px;
+    padding-bottom: 10px;
+ }
  
-#displayed_img{
-   padding-right: 20px;
-   padding-bottom: 10px;
-}
+ #main_pain p{
+     color: #6D8092;
+ }
+ 
+ #main_pain h1{
+     font-family: Georgia;
+     font-weight: bold;
+ }
 
-#main_pain p{
-    color: #6D8092;
-}
+ #comparison_main_pain{
+    background-color: white;
+    color: #0BADA6;
+    position: relative;
 
-#main_pain h1{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 50px;
+
+    /* text-align: center; */
+ }
+
+ #comparison_main_pain h1{
     font-family: Georgia;
     font-weight: bold;
 }
 
+ #comparison_main_pain p{
+     color: black;
+     text-align: left;
+ }
+
+
+ /* #comparison_main_pain .col-lg-5{
+    background-color: white;
+    text-align: center;
+ } */
+
+#column1{
+     /* background-color: blue; */
+     /* text-align: center; */
+     padding: 10px;
+     padding-left: 30px;
+     margin-left: 5%;
+     color: #0BADA6;
+     font-family: Georgia;
+}
+
+#column2{
+    /* background-color: green; */
+    text-align: center;
+    padding: 10px;
+    padding-left: 30px;
+    margin-left: 5%;
+    color: #0BADA6;
+    font-family: Georgia;
+}
+
+ #column1 h4{
+    font-weight: bold;
+    text-align: center;
+ }
+
+ #column2 h4{
+    font-weight: bold;
+    text-align: center;
+ }
+
+
+
+
+
+/* .col-sm-6{
+    text-align: center;
+} */
 
 #side_pane{
     background-color:  white;
@@ -98,6 +172,11 @@
     grid-gap: 1rem;
 }
 */
+
+.graphs #selected{
+    border: 3px solid #0BADA6;
+}
+
 #footer_section{
     position: relative;
     /* margin-bottom: 0px; */
