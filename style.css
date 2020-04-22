@@ -1,74 +1,118 @@
+/* html {
+    overflow: hidden;
+} */
 /* body{
-    background-color: gainsboro; 
+    /* margin: 0;
+    padding-bottom: 20px; 
+    height: 95vh;
 } */
 
-.container-fluid{
-    background-color: greenyellow;
-    /* width: 100%; */
-    /* margin-left: 0;
-    margin-right: 0; */
-    /* max-width: 100%; */
-    padding: 0;
+.row{
+    background-color: #EDEDED;
+    /* padding-bottom: 25px; */
+    /* padding: 0; */
 }
+
+/* .container-fluid{
+    background-color: lightsalmon;
+} */
+
+#navbar_id{
+   padding-left: 5rem;
+   padding-right: 1rem;
+   padding-top: 0;
+   padding-bottom: 0;
+   /* margin-right: -30px; */
+}
+
 
 .navbar-brand{
-    background-color: teal;
+    background-color: #0BADA6;
+    padding: 10px;
+    color: white !important;
+    font-size: 30pt;
+    font-family: Georgia;
+    font-weight: bold;
 }
 
+
+/* .nav-item a{
+    color: black !important; 
+} */
+
 #main_pain{
-    background-color: coral;
+    background-color: white;
+    color: #0BADA6;
     position: relative;
     left: 5%;
     margin-top: 5%;
-    /* margin-left: 1%; */
     margin-bottom: 3%;
     padding-top: 50px;
     padding-left: 30px;
     padding-right: 30px;
     padding-bottom: 50px;
-    /* margin-right: 10px; */
-    /* margin: 10px; */
  }
  
 #displayed_img{
    padding-right: 20px;
-   padding-bottom: 20px;
+   padding-bottom: 10px;
 }
 
-/* p{
-    padding-left: 20px;
-} */
+#main_pain p{
+    color: #6D8092;
+}
+
+#main_pain h1{
+    font-family: Georgia;
+    font-weight: bold;
+}
 
 
 #side_pane{
-    background-color: skyblue;
+    background-color:  white;
+    color: #0BADA6;
     position: relative;
     left: 8%;
     text-align: center;
-    margin-top: 5%;
-    /* margin-left: 1cm;  */
-    margin-bottom: 5%;
-    /* margin-right: 0px; */
-    
-    /* padding-top: 70px;
-    padding-left: 50px;
-    padding-right: 50px; */
 
- 
-    /* margin-right: 1px; */
+    margin-top: 5%;
+    margin-bottom: 5%;
+    
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+
 } 
 
+#side_pane h2{
+    text-align: left;
+    font-family: Georgia;
+    font-weight: bold;
+}
+/*
 .graphs{
-    /* display: grid; */
     display: inline-block;
-    /* left: ; */
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
     grid-gap: 1rem;
 }
-
+*/
 #footer_section{
     position: relative;
-    padding-top: 10px;
-    background-color: pink ;
+    /* margin-bottom: 0px; */
+    padding-top: 20px;
+    /* padding-bottom: -10px; */
+
+    background-color: #666666;
+    color: white;
+    border-top:5px solid #0BADA6;
+
+    text-align: center;
+
+    /* float: none;
+    display: table-cell;
+    vertical-align: bottom; */
 }
+
+ 
