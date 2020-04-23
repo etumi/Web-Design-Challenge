@@ -184,8 +184,13 @@
     /* text-align: center; */
  }
 
+ .row #data_table{
+     background-color: white;
+ }
  table{
-     width: 1087.5px;
+     width: 100%;
+     background-color: white;
+     color: black;
  }
 th{
     padding: 10px;
@@ -204,10 +209,6 @@ th{
      text-align: left;
  }
 
-.dataframe{
-    background-color: white;
-    color: black;
-}
 
 
 
